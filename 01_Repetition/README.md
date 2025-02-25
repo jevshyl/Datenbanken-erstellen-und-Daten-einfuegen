@@ -32,7 +32,7 @@
          - Primärschlüssel: ID der Spalte
          - Fremdschlüssel: referenziert eine andere Tabelle durch dessen Prümärschlüssel
    - Beziehungen/Kardinalitäten erstellen:
-       - [Link zu Kardinalitäten]
+       - [Link zu Kardinalitäten](#Kardinalitäten)
    - Die 2NF wird dann erfüllt, wenn man keine doppelten Werte und aufgeteilte Tabellen mit Beziehungen zuenandedr hat.
 
 
@@ -40,4 +40,18 @@
    - "Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn er sich in der zweiten Normalform (2NF) befindet und kein Nichtschlüsselattribut transitiv von einem Kandidatenschlüssel abhängt."
    - in der 3NF darf jedes Attribut nur noch von einem Primärschlüssel abhängig sein
    - Die Tabellen können weiter gespaltet werden, neue Beziehungen entstehen
+   
+
+
+## Kardinalitäten
+
+- 1:1 (Eins zu Eins)
+  - Ein Datensatz in Tabelle 1 kann maximal einem Datensatz in Tabelle 2 zugeprdnet sein
+  - z.B ein Mensch kann nur maxima eine ID haben
+- 1:N (Eins zu Vielen)
+    - Ein Datensatz in Tabelle 1 kann mit mehreren Datensätzen in Tabelle 2 verbunden sein, jedoch können die Datensätze in der Tabelle 2 nur mit maximal einem Datensatz in Tabelle 1 verbunden sein
+    - z.B Ein Klassenlehrer unterrichtet mehrere Schüler aber jeder Schüler hat nur einen Klassenlehrer.
+- M:N (Viele zu Viele)
+    - Ein Datensatz in Tabelle 1 kann mit mehreren Datensätzen in Tabelle 2 verbunden sein und umgekehrt.
+    - Ein Schüler kann mehrere Kurse besuchen und jeder Kurs hat mehrere Schüler
 
