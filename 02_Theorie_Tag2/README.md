@@ -13,3 +13,23 @@
 - Spezialisierung = nicht gemeinsame Attribute bleiben in vorhandenen Entitäten
 - Hier werden Untergruppen von den Informationen erstellt, welche zu keinen Redundanzen vorher geführt haben
 
+
+- Datenverlust vermeiden:
+    - Die Datensätze von der spezialisierten Tabellen müssen mit einem Fremdschlüssel auf die generalisierte Tabelle verweisen.
+    - Die Beziehung ist die is_a Beziehung
+          - "ein Attribut" ist "ein Attribut"
+
+
+
+## is_a und has_a
+
+- is_a
+    - beschreibt eine Spezialisierung
+    - verweist darauf, dass eine Tabelle spezialisiert wurde
+    - BSP: Eine Person (Attribut) ist ein Mitarbeiter (anderes Attribut). Die Person bekommt durch die spezialisierte Tabelle (Mitarbeiter) neue Werte.
+
+
+- has_a:
+    - Eine Entität hat eine Beziehung zu einer anderen Entität, bzw. eine Tabelle gehört zu einer anderen Tabelle
+    - zeigt keine Generalisierung oder Spezialisierung an
+    - zeigt, dass eine Tabelle Werte einer anderen Tabelle besitzt
