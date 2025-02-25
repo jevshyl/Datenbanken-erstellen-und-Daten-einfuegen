@@ -52,3 +52,4 @@
 - Hier können beide Tabellen auch ohne eine beziehung existieren
 - HAS_A - Relationship
 - Wie: Fremdschlüssel der überegeordneten Tabelle wird in der untergeordneten Tabelle gespeichert
+
