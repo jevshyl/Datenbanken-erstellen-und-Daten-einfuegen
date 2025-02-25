@@ -14,7 +14,10 @@
 
 ## 25.02.2025
 
-- Neue Begriffe angeschaut
-- [Identifying Relationships] und [Non-Identifying Relationships] studiert
-- 
+### Was habe ich gelernt:
+  - [Generalisierung und Spezialisierung](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/02_Theorie_Tag2/README.md#generalisierung-und-spezialisierung) kennengelernt
+  - [is_a und has_a Beziehung](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/02_Theorie_Tag2/README.md#is_a-und-has_a-beziehungen) definiert
+  - [Identifying Relationships](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/02_Theorie_Tag2/README.md#identifying-relationship) und [Non-Identifying Relationships](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/02_Theorie_Tag2/README.md#non-identifying-relationship) studiert
+    
+     
 
