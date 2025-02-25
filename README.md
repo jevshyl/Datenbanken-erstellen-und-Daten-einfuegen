@@ -14,6 +14,11 @@
 
 ## 25.02.2025
 
+### Was haben wir gemacht?
+- Theorie zu verscheidenen Themen studiert
+- Tabellen und Schemas selbständig erstellt und ausprobiert
+- Lerndossier erweitert
+
 ### Was habe ich gelernt:
   - [Generalisierung und Spezialisierung](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/02_Theorie_Tag2/README.md#generalisierung-und-spezialisierung) kennengelernt
   - [is_a und has_a Beziehung](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/02_Theorie_Tag2/README.md#is_a-und-has_a-beziehungen) definiert
