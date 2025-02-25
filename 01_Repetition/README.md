@@ -38,6 +38,6 @@
 
 3. Normalisierung:
    - "Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn er sich in der zweiten Normalform (2NF) befindet und kein Nichtschlüsselattribut transitiv von einem Kandidatenschlüssel abhängt."
- - in der 3NF darf jedes Attribut nur noch von einem Primärschlüssel abhängig sein
- - Die Tabellen können weiter gespaltet werden, neue Beziehungen entstehen
+   - in der 3NF darf jedes Attribut nur noch von einem Primärschlüssel abhängig sein
+   - Die Tabellen können weiter gespaltet werden, neue Beziehungen entstehen
 
