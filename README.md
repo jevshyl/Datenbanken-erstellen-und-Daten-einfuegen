@@ -14,5 +14,7 @@
 
 ## 25.02.2025
 
-
+- Neue Begriffe angeschaut
+- [Identifying Relationships] und [Non-Identifying Relationships] studiert
+- 
 
