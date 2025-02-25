@@ -39,8 +39,16 @@
 - Die Identifying Relationship beschreibt die Art der Beziehung zwischen zwei Tabellen
 - Man kann genau identifizieiren, was in der eziehung steht
 - BSP: Beziehung zwischen Mutter und Kind
-
+- Die Beziehung besteht zwischen zwei Tabellen, eine übergeordnete und eine untergeordnete Tabelle
+    - übergeordnete Tabelle: Tabelle mit Primärschlüssel (hier: Mutter)
+    - untergeordnete Tabelle: Tabelle ohne Primärschlüssel (hier: Kind)
+- Die untergeordnete Tabelle kann ohne eine Beziehung zu der übergeordneten Tabelle nicht exstieren
+- Wie: Der Primärschlüssel der übergeordneten Tabelle wird in der untergeordneten Tabelle als Teil des Primärschlüssels gespeichert
 
 ## Non-Identifying Relationship
 - Diese Bezihungen sind nicht so spezifisch
 - Sie beschreibt kurz und knapp, um welche Beziehung es sich handelt
+- Bei dieser Beziehung ist die untergeordnete Tabelle nicht von der übergeordneten Tabelle abhängig
+- Hier können beide Tabellen auch ohne eine beziehung existieren
+- HAS_A - Relationship
+- Wie: Fremdschlüssel der überegeordneten Tabelle wird in der untergeordneten Tabelle gespeichert
