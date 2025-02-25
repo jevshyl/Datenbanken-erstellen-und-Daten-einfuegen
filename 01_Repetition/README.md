@@ -16,7 +16,7 @@
     - Die Datenbak wird erstellt
 
 
- ## Normalisiserung
+ ## Normalisierung
 
 1. Normalisierung:
    - " Die erste Normalform (1NF) ist dann erfüllt, wenn die Wertebereiche der Attribute des Relationstypen atomar vorliegen "
