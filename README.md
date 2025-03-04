@@ -28,6 +28,7 @@
 ## 04.04.2025
 
 ### Was haben wir heute gemacht?
+- Tabelle in MySQL mit Code erstellt
 - Theorie zu Mehrfachbindungen angeschaut
 - 
 
