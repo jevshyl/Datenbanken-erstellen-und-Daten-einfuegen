@@ -10,6 +10,28 @@
 - Die Kardinalitäten der verschiedenen Beziehungen können auch unterschiedlich sein
 
 
+## Rekursion
+
+- Rekursion = ein Datensaz einer Tabelle ist mit einem anderen Datensatz aus derselben Tabelle verbunden (steht in Bezihung dazu)
+- WIe = Die Tabelle enthält einen Fremdschlüssel, welcher auf den Primärschlüssel der eigenen Tabelle zeigt
+
+
+ ## Einfache Hierarchie
+
+ - Bei einer Netzwerkstruktur gibt es eine many-many Beziehung (m:n), wobei aber ein ELement gleichzeitig mehrere Rollen einnehmen kann
+  - z.B Mitarbeiter hat Rolle "Vorgesetzter" und Rolle "Mitarbeiter"
+- Um diese Beziehung zu zeigen braucht man eine Transformationstabelle mit zwei Fremdschlüsseln, welche auf denselben Primärschlüssel zeigen. Diese 2 sollen aber unterrschiedliche Rollen haben.
+
+
+
+
+
+
+
+
+
+
+
 ## Codes
 
 ### DDL
