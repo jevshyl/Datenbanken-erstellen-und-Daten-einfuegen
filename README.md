@@ -35,5 +35,5 @@
 
 ### Was habe ich gelernt?
 - [Mehrfachbindungen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/03_Theorie_Tag3#mehrfachbindungen)
-- [Codes](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/03_Theorie_Tag3#mehrfachbindungen)
+- [Codes](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/03_Theorie_Tag3#codes)
 
