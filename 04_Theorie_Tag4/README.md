@@ -115,7 +115,43 @@ WHERE a.name IS NULL OR b.name IS NULL;
      - z.B. "3 ∈ G" -> nummer 3 ist in der Grundmenge vorhanden
  
 - ∉
-    - ein Element ist in einer Menge <b>nicht<b> enthalten
+    - ein Element ist in einer Menge nicht enthalten
+    - z.B. 4.367 ∉ G -> Nummer 4.367 ist nicht in der Grundmenge vorhanden
+ 
+- {}
+    - leere Menge
+    - z.B. A={} -> die Menge A ist leer
+    - nichts vorhanden
 
+- ⊂, ⊆
+    - Teilmenge von
+    - Eine Menge ist in einem Teil einer anderen Menge vorhanden
+    - z.B  x ∈ B und x ∈ A  ->  B ⊂ A
+ 
+- ∩
+    - Schnittmenge zwischen zwei Mengen
+    - Ein gewisser Teil der Menge A ist genauso in Menge B vorhanden -> beide gleiche Werte
+    - A ∩ B
+    - Wie INNER JOIN
+ 
+
+- ∪
+    - Vereinigungsmenge von zwei Mengen
+    - Die Menge aller Elemente, welche in A, in B oder in beiden Mengen vorhanden sind
+    - z.B. A ∪ B
+    - Wie FULL OUTER JOIN
+ 
+- Xc
+    - Komplementärmenge
+    - Alle Elemente, welche nicht in der Menge "X" vorhanden sind
+    - z.B Gc -> alle Zahlen die nicht in der Grundmenge sind
+ 
+      
+- \
+    - Differenzmenge
+    - Alle Elemente ausser
+    - z.B. B\A -> Alle Elemente aus B ausser die Elemente aus A (auch Schnittmenge gehört nicht dazu)
+    - wie right/left excluding JOIN
+      
 
 
