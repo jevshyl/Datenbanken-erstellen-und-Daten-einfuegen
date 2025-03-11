@@ -29,7 +29,11 @@
 - INNER JOIN:
   - kombiniert tabellen -> gibt gemeinsamen Wert (rot) aus
   - Werte die nicht in beiden Tabellen enthalten sind werden nicht angezeigt
-  - SELECT * FROM country (tabelle mitFK) INNER JOIN region(tabelle mit PK) ON id_region(FK) region_id(PK);
+```
+SELECT * FROM country (tabelle mitFK)
+INNER JOIN region(tabelle mit PK)
+ON id_region(FK) region_id(PK);
+```
 
 <img src = "https://github.com/user-attachments/assets/1776f093-43cf-4379-b4e5-0589068b719f" width = "200">
 
@@ -39,8 +43,11 @@
 - LEFT OUTER JOIN:
   	- Joined tabellen und gibt den Wert der 1./linken tabelle und des gemeinsamen wertes aus
     	- Also wenn es keine übereinstimmungen hat, dann wird es mit null eingefüllt
-  - SELECT * FROM country LEFT OUTER JOIN region ON id_region(FK) = region_id(PK);
-
+```
+SELECT * FROM country
+LEFT OUTER JOIN region
+ON id_region(FK) = region_id(PK);
+```
 <img src = "https://github.com/user-attachments/assets/986be096-1017-46c7-8b11-4c1d833bcbf8" width = "200">
 
 <br> 
@@ -49,10 +56,12 @@
 - LEFT EXCLUDING JOIN:
   	- Speziallfall
 	- Nur die Einträge der 1./linken tabelle die keine übereinstimmungen haben werden angezeigt
-	- SELECT *FROM table_a a 
-	LEFT OUTER JOIN table_b b
-	ON a.name = b.name
-	WHERE b.name IS NULL;
+```
+SELECT *FROM table_a a 
+LEFT OUTER JOIN table_b b
+ON a.name = b.name
+WHERE b.name IS NULL;
+```
 
 <img src = "https://github.com/user-attachments/assets/73ff298d-0375-4fc5-bc54-176b2b262109" width = "200">
 
@@ -62,11 +71,12 @@
 - RIGHT OUTER JOIN
 	- Gegenteil von LEFT EXCLUDING JOIN
 	- Alle Einträge die keine Übereinstimmungen haben werden angezeigt
-	- SELECT *FROM table_a a 
-	RIGHT OUTER JOIN table_b b
-	ON a.name = b.name
-	WHERE a.name IS NULL;
- 
+```
+SELECT *FROM table_a a
+RIGHT OUTER JOIN table_b b
+ON a.name = b.name
+WHERE a.name IS NULL;
+``` 
 <img src = "https://github.com/user-attachments/assets/c8be94ea-a817-4bca-8c78-c5483bd90933" width = "200">
 
 <br> 
@@ -76,7 +86,7 @@
 	- Nimmt ALLE werte der beiden tabellen und deren übereinstimmungen
 	- Dort wo es keine übereinstimmungen hat steht null
 ```
- SELECT *FROM table_a a 
+SELECT *FROM table_a a 
 FULL OUTER JOIN table_b b
 ON a.name = b.name;
 ```
