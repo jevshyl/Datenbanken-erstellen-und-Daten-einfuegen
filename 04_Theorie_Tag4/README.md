@@ -37,8 +37,8 @@
 <br>
 
 - LEFT OUTER JOIN:
-  - Joined tabellen und gibt den Wert der 1./linken tabelle und des gemeinsamen wertes aus
-        - Also wenn es keine übereinstimmungen hat, dann wird es mit null eingefüllt
+  	- Joined tabellen und gibt den Wert der 1./linken tabelle und des gemeinsamen wertes aus
+    	- Also wenn es keine übereinstimmungen hat, dann wird es mit null eingefüllt
   - SELECT * FROM country LEFT OUTER JOIN region ON id_region(FK) = region_id(PK);
 
 <img src = "https://github.com/user-attachments/assets/986be096-1017-46c7-8b11-4c1d833bcbf8" width = "200">
@@ -47,12 +47,12 @@
 <br>
 
 - LEFT EXCLUDING JOIN:
-- 	- Speziallfall
+  	- Speziallfall
 	- Nur die Einträge der 1./linken tabelle die keine übereinstimmungen haben werden angezeigt
 	- SELECT *FROM table_a a 
 	LEFT OUTER JOIN table_b b
 	ON a.name = b.name
-WHERE b.name IS NULL;
+	WHERE b.name IS NULL;
 
 <img src = "https://github.com/user-attachments/assets/73ff298d-0375-4fc5-bc54-176b2b262109" width = "200">
 
