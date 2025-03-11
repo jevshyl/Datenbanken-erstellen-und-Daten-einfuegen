@@ -26,9 +26,9 @@
 ## JOINS
 
 
-- INNER JOIN:
-  - kombiniert tabellen -> gibt gemeinsamen Wert (rot) aus
-  - Werte die nicht in beiden Tabellen enthalten sind werden nicht angezeigt
+### INNER JOIN:
+- kombiniert tabellen -> gibt gemeinsamen Wert (rot) aus
+- Werte die nicht in beiden Tabellen enthalten sind werden nicht angezeigt
 ```
 SELECT * FROM country (tabelle mitFK)
 INNER JOIN region(tabelle mit PK)
@@ -40,9 +40,9 @@ ON id_region(FK) region_id(PK);
 <br> 
 <br>
 
-- LEFT OUTER JOIN:
-  	- Joined tabellen und gibt den Wert der 1./linken tabelle und des gemeinsamen wertes aus
-    	- Also wenn es keine übereinstimmungen hat, dann wird es mit null eingefüllt
+### LEFT OUTER JOIN:
+- Joined tabellen und gibt den Wert der 1./linken tabelle und des gemeinsamen wertes aus
+- Also wenn es keine übereinstimmungen hat, dann wird es mit null eingefüllt
 ```
 SELECT * FROM country
 LEFT OUTER JOIN region
@@ -53,9 +53,9 @@ ON id_region(FK) = region_id(PK);
 <br> 
 <br>
 
-- LEFT EXCLUDING JOIN:
-  	- Speziallfall
-	- Nur die Einträge der 1./linken tabelle die keine übereinstimmungen haben werden angezeigt
+### LEFT EXCLUDING JOIN:
+- Speziallfall
+- Nur die Einträge der 1./linken tabelle die keine übereinstimmungen haben werden angezeigt
 ```
 SELECT *FROM table_a a 
 LEFT OUTER JOIN table_b b
@@ -68,9 +68,9 @@ WHERE b.name IS NULL;
 <br> 
 <br>
 
-- RIGHT OUTER JOIN
-	- Gegenteil von LEFT EXCLUDING JOIN
-	- Alle Einträge die keine Übereinstimmungen haben werden angezeigt
+### RIGHT OUTER JOIN
+- Gegenteil von LEFT EXCLUDING JOIN
+- Alle Einträge die keine Übereinstimmungen haben werden angezeigt
 ```
 SELECT *FROM table_a a
 RIGHT OUTER JOIN table_b b
@@ -82,9 +82,9 @@ WHERE a.name IS NULL;
 <br> 
 <br>
 
-- FULL OUTER JOIN
-	- Nimmt ALLE werte der beiden tabellen und deren übereinstimmungen
-	- Dort wo es keine übereinstimmungen hat steht null
+### FULL OUTER JOIN
+- Nimmt ALLE werte der beiden tabellen und deren übereinstimmungen
+- Dort wo es keine übereinstimmungen hat steht null
 ```
 SELECT *FROM table_a a 
 FULL OUTER JOIN table_b b
@@ -96,9 +96,9 @@ ON a.name = b.name;
 <br> 
 <br>
 
-- OUTER EXCLUDING JOIN:
-	- Zeigt alle werte die nicht übereinstimmen der beiden tabellen
-	- Kombi aus right and left excluding join
+### OUTER EXCLUDING JOIN:
+- Zeigt alle werte die nicht übereinstimmen der beiden tabellen
+- Kombi aus right and left excluding join
 ```
 SELECT *FROM table_a a
 FULL OUTER JOIN table_b b
