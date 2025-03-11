@@ -76,5 +76,5 @@ WHERE b.name IS NULL;
 WHERE a.name IS NULL OR b.name IS NULL;
 
 ![image](https://github.com/user-attachments/assets/e7304f9e-d5db-45e1-9e57-47141b8b6593)
-
+<img src="https://github.com/user-attachments/assets/e7304f9e-d5db-45e1-9e57-47141b8b6593" width = "200">
 
