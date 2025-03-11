@@ -68,6 +68,8 @@ WHERE b.name IS NULL;
 	ON a.name = b.name;
 
 <img src = "https://github.com/user-attachments/assets/db38ad62-a19e-40c1-9137-a73a19a86a75" width = "200">
+<br> 
+<br>
 
 - OUTER EXCLUDING JOIN:
 	- Zeigt alle werte die nicht übereinstimmen der beiden tabellen
