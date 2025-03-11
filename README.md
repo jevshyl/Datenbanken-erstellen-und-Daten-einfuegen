@@ -2,7 +2,7 @@
 
 
 ## 18.02.2025
-### Was haben wur gemacht?
+### Was haben wir gemacht?
 - ERD und ERM wiederholt
 - ERD und ERM studiert, skiziert und erstellt
 
