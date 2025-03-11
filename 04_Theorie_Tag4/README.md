@@ -37,7 +37,44 @@
 - LEFT OUTER JOIN:
   - Joined tabellen und gibt den Wert der 1./linken tabelle und des gemeinsamen wertes aus
         - Also wenn es keine übereinstimmungen hat, dann wird es mit null eingefüllt
-![image](https://github.com/user-attachments/assets/a3ab69a0-3025-4b96-9438-3518e209b561)
+  - SELECT * FROM country LEFT OUTER JOIN region ON id_region(FK) = region_id(PK);
 
+    ![image](https://github.com/user-attachments/assets/986be096-1017-46c7-8b11-4c1d833bcbf8)
+
+- LEFT EXCLUDING JOIN:
+- 	- Speziallfall
+	- Nur die Einträge der 1./linken tabelle die keine übereinstimmungen haben werden angezeigt
+	- SELECT *FROM table_a a 
+	LEFT OUTER JOIN table_b b
+	ON a.name = b.name
+WHERE b.name IS NULL;
+![image](https://github.com/user-attachments/assets/73ff298d-0375-4fc5-bc54-176b2b262109)
+
+- RIGHT OUTER JOIN
+	- Gegenteil von LEFT EXCLUDING JOIN
+	- Alle Einträge die keine Übereinstimmungen haben werden angezeigt
+	- SELECT *FROM table_a a 
+	RIGHT OUTER JOIN table_b b
+	ON a.name = b.name
+	WHERE a.name IS NULL;
+![image](https://github.com/user-attachments/assets/c8be94ea-a817-4bca-8c78-c5483bd90933)
+
+- FULL OUTER JOIN
+	- Nimmt ALLE werte der beiden tabellen und deren übereinstimmungen
+	- Dort wo es keine übereinstimmungen hat steht null
+	- SELECT *FROM table_a a 
+	FULL OUTER JOIN table_b b
+	ON a.name = b.name;
+![image](https://github.com/user-attachments/assets/db38ad62-a19e-40c1-9137-a73a19a86a75)
+
+- OUTER EXCLUDING JOIN:
+	- Zeigt alle werte die nicht übereinstimmen der beiden tabellen
+	- Kombi aus right and left excluding join
+	- SELECT *FROM table_a a 
+	FULL OUTER JOIN table_b b
+	ON a.name = b.name
+WHERE a.name IS NULL OR b.name IS NULL;
+
+![image](https://github.com/user-attachments/assets/e7304f9e-d5db-45e1-9e57-47141b8b6593)
 
 
