@@ -125,7 +125,7 @@ WHERE a.name IS NULL OR b.name IS NULL;
 
 - ⊂, ⊆
     - Teilmenge von
-    - Eine Menge ist in einem Teil einer anderen Menge vorhanden
+    - Eine Menge <p color = blue>B<\p> ist in einem Teil einer anderen Menge A vorhanden
     - z.B  x ∈ B und x ∈ A  ->  B ⊂ A
     - <img src = "https://github.com/user-attachments/assets/513131c3-b041-457f-8f42-76d6c291ae68" width="200">
 
