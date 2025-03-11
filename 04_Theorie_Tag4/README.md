@@ -59,6 +59,7 @@ WHERE b.name IS NULL;
 	ON a.name = b.name
 	WHERE a.name IS NULL;
 <img src = "https://github.com/user-attachments/assets/c8be94ea-a817-4bca-8c78-c5483bd90933" width = "200">
+
 - FULL OUTER JOIN
 	- Nimmt ALLE werte der beiden tabellen und deren übereinstimmungen
 	- Dort wo es keine übereinstimmungen hat steht null
