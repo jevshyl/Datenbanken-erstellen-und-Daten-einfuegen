@@ -107,3 +107,15 @@ WHERE a.name IS NULL OR b.name IS NULL;
 ```
 <img src="https://github.com/user-attachments/assets/e7304f9e-d5db-45e1-9e57-47141b8b6593" width = "200">
 
+
+## Mengenlehre - Zeichen
+
+- ∈
+     - ein Element ist in einer Menge enthalten
+     - z.B. "3 ∈ G" -> nummer 3 ist in der Grundmenge vorhanden
+ 
+- ∉
+    - ein Element ist in einer Menge <b>nicht<b> enthalten
+
+
+
