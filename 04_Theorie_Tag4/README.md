@@ -99,6 +99,11 @@ ON a.name = b.name;
 - OUTER EXCLUDING JOIN:
 	- Zeigt alle werte die nicht übereinstimmen der beiden tabellen
 	- Kombi aus right and left excluding join
-	- SELECT *FROM table_a a FULL OUTER JOIN table_b b ON a.name = b.name WHERE a.name IS NULL OR b.name IS NULL;
+```
+SELECT *FROM table_a a
+FULL OUTER JOIN table_b b
+ON a.name = b.name
+WHERE a.name IS NULL OR b.name IS NULL;
+```
 <img src="https://github.com/user-attachments/assets/e7304f9e-d5db-45e1-9e57-47141b8b6593" width = "200">
 
