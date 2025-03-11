@@ -37,3 +37,13 @@
 - [Mehrfachbindungen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/03_Theorie_Tag3#mehrfachbindungen)
 - [Codes](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/03_Theorie_Tag3#codes)
 
+
+## 11.03.2025
+
+### Was haben wir heute gemacht?
+- LB1 geschrieben
+- Verschiedenene Theorie studiert und im Lernjournal dokumentiert
+
+### Was habe ich gelernt?
+- [Referenielle Integrität]()
+- [JOINS]()
