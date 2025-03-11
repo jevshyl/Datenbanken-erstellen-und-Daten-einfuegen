@@ -125,7 +125,7 @@ WHERE a.name IS NULL OR b.name IS NULL;
 
 - ⊂, ⊆
     - Teilmenge von
-    - Eine Menge <span style="color: blue;">B</span> ist in einem Teil einer anderen Menge A vorhanden
+    - Eine Menge B (hellblau) ist in einem Teil einer anderen Menge A (dunkelblau) vorhanden
     - z.B  x ∈ B und x ∈ A  ->  B ⊂ A
     - <img src = "https://github.com/user-attachments/assets/513131c3-b041-457f-8f42-76d6c291ae68" width="200">
 
@@ -135,6 +135,8 @@ WHERE a.name IS NULL OR b.name IS NULL;
     - Ein gewisser Teil der Menge A ist genauso in Menge B vorhanden -> beide gleiche Werte
     - A ∩ B
     - Wie INNER JOIN
+    - <img src = "https://github.com/user-attachments/assets/0df7e828-23e3-441a-bac9-b35a6be37a8a" width = "200">
+
  
 
 - ∪
@@ -142,6 +144,7 @@ WHERE a.name IS NULL OR b.name IS NULL;
     - Die Menge aller Elemente, welche in A, in B oder in beiden Mengen vorhanden sind
     - z.B. A ∪ B
     - Wie FULL OUTER JOIN
+    - <img src = "https://github.com/user-attachments/assets/944c3e0b-5810-4629-ad47-1cfc92aab37e" width = "200">
  
 - Xc
     - Komplementärmenge
