@@ -30,6 +30,27 @@
 
 Datenintergrität = Korrektheit, Konsistenz und Vertrauenswürdigkeit von Daten innerhalb einer Datenbank
 
-1. Eindeutigeit und Daten
+1. Eindeutigeit und Datenkonsistenz:
+    - Jeder Datensatz muss eindeutig identifizeirbar sein und für eine lange Zeit bestehen
+          - Ihr Zustand soll nicht ungewollt geändert werden können
+          - Redundazen sollen somit verhindert werden
+
+2. Referenzielle Integrität:
+    - Wenn Tabellen in Beziehung zueindander stehen, sollen diese Beziehungen immer konsistent beliben
+         - Beziehungen können nur dann bestehen, wenn beide Datensätze wirklich existieren
+
+3. Datentypen:
+    - Daten sollen immer mit ihren richtigen Datentyp gespeichert werden
+          - Vermeidung von Fehlern
+
+4. Datenbeschränkung:
+    - Nur gültige Daten sollen in die Datenbank eingefügt werden können
+    - z.B sollen nur positive Zahlen eingefügt werden oder eine Email soll in ebstimmten Format entsprechen
+
+5. Validierung:
+    - Vor dem Einfügen von Daten, muss man zuers die Datenbank validieren
+          - Das heisst, überprüfen, ob die Daten in der Datenbank korrekt sind. Nur wenn alle Daten stimmen darf man neue Daten einfügen.
+               - Wird dies nicht gemacht, so kann es zu komplizierten Fehlern kommen, welche nur mit grossem Zeitaufwand korrigiert werden können
+          
 
 
