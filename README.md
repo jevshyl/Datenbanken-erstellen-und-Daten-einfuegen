@@ -45,5 +45,5 @@
 - Verschiedenene Theorie studiert und im Lernjournal dokumentiert
 
 ### Was habe ich gelernt?
-- [Referenielle Integrität]()
-- [JOINS]()
+- [Referenielle Integrität](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/04_Theorie_Tag4#referenzielle-integrit%C3%A4t)
+- [JOINS](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/04_Theorie_Tag4#JOINS)
