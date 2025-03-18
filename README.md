@@ -51,5 +51,15 @@
 ## 18.03.2025
 
 ### Was haben wir heute gemacht?
+- Theorie zu DQL-Befehlen studiert
+- Lernjournal erweitert 
 
 ### Was habe ich gelernt?
+-Auf was muss man beim [Löschen von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#l%C3%B6schen-von-daten-in-professionellen-datenbank) achten
+- Was ist die [Datenintergrität](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Datenintegrität)
+- Was sind die [Fremschlüssel-Regeln beim Löschen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Fremschlüssel-Regeln-beim-Löschen)
+- [SELECT ALIAS](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#SELECT-ALIAS) bei Tabellen und Spalten
+- [Aggregatsfunktionen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Aggregatsfunktionen)
+- Was ist der [Merksatz](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Merksatz) für GROUP BY und HAVING Statements
+- [GROUP BY](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#GROUP-BY)
+- [HAVING](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#HAVING)
