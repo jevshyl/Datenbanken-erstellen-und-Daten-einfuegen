@@ -55,7 +55,7 @@
 - Lernjournal erweitert 
 
 ### Was habe ich gelernt?
--Auf was muss man beim [Löschen von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#l%C3%B6schen-von-daten-in-professionellen-datenbank) achten
+- Auf was muss man beim [Löschen von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#l%C3%B6schen-von-daten-in-professionellen-datenbank) achten
 - Was ist die [Datenintergrität](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Datenintegrität)
 - Was sind die [Fremschlüssel-Regeln beim Löschen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Fremdschlüssel-Regeln-beim-Löschen)
 - [SELECT ALIAS](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#SELECT-ALIAS) bei Tabellen und Spalten
