@@ -25,7 +25,7 @@
                 - Die neue Tabelle "Stornierungen" kann man mit neuen Daten erweitern. Was wurde storniert, wieso, wann usw.
 
 - Allgemein:
-    - Anstelle des Löschen von Daten, was zu komplizierten Verständnis oder juristischen Problemen führen kann, kann man stattdessen die Datenbank mit weiteren Tabellen, welche spezielle Informationen haben erweitern. Somit erweitert man datensätze und beschrebt diese neu anstelle sie zu löschen.
+    - Anstelle des Löschen von Daten, was zu komplizierten Verständnis oder juristischen Problemen führen kann, kann man stattdessen die Datenbank mit weiteren Tabellen, welche spezielle Informationen haben erweitern. Somit erweitert man Datensätze und beschrebt diese neu anstelle sie zu löschen.
  
 ## Datenintegrität
 
