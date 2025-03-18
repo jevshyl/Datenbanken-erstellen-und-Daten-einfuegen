@@ -72,7 +72,7 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
         - Wenn ch den Primärschlüssel Kunde = 2 und dessen Daten in der Primärtabelle löschen will, dann werden automatisch alle Datensätze in den Fremdschlüsseltabellen, welche diese Daten nutzen auf NULL gesetzt.
     - Funktioniert nur bei c:m oder c:c Beziehungen -> wenn beim Fremdschlüssel der Wert NULL erlaubt ist
     - DEFAULT:
-          - falls man einen Default-Wert definiert, so wird dieser in die Fremdschlüsseltabellen eingesetzt statt der Wert NULL
+		- falls man einen Default-Wert definiert, so wird dieser in die Fremdschlüsseltabellen eingesetzt statt der Wert NULL
 
 
 - Beispiel:
