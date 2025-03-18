@@ -7,7 +7,7 @@
 - ERD und ERM studiert, skiziert und erstellt
 
 ### Was habe ich gelernt?
-- Ich habe viele Sachen repetiert und dokuentiert:
+- Ich habe viele Sachen repetiert und dokumentiert:
   - [Datenmodellierung](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/01_Repetition#datenmodellierung-theorie)
   - [Normalisierung](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/01_Repetition#normalisierung)
   - [Kardinalitäten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/01_Repetition#kardinalitäten)
