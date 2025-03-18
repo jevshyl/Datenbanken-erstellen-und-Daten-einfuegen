@@ -79,7 +79,7 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
 
   ```
   CREATE TABLE IF NOT EXISTS kunden (
-      ID_Bestellung Integer NOT NULL AUTO_INCREMENT,
+      ID_Bestellung int NOT NULL AUTO_INCREMENT,
       Beschreibung VARCHAR(100) NOT NULL,
       Kunden_ID Integer,
       PRIMARY KEY(ID_Bestellung),
