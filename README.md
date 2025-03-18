@@ -47,3 +47,9 @@
 ### Was habe ich gelernt?
 - [Referenzielle Integrität](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/04_Theorie_Tag4#referenzielle-integrit%C3%A4t)
 - [JOINS](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/04_Theorie_Tag4#JOINS)
+
+## 18.03.2025
+
+### Was haben wir heute gemacht?
+
+### Was habe ich gelernt?
