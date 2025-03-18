@@ -3,13 +3,14 @@
 ## Löschen von Daten in professionellen Datenbank
 
 - Üblicherweise ist der Lösch-Befehl "delete" in professionellen Datenbanken nicht erlaubt
-    - Wieso? Dieser Befehl würde zu starkem Datenverlust führen
+    - Wieso?
+		- Dieser Befehl würde zu starkem Datenverlust führen
 - Was passiert beim ausführen dieses Befehls:
-    - Wenn ich zum Beispiel einen Mitarbeiter aus einer Tabelle löschen will und den Befehl "delete" dafür verwede, dann verschwindet nicht nur der Datensatz des Mitarbeiters, sondern auch alle Beziehungen, welche mit dem Mitarbeiter in Verbindung standen
-        - Wenn das passiert, dann kann man von der Datenbank aus nicht mehr verstehen, welche Position und Beziehungen dieser Mitarbeiter zuvor hatte. Welchen Job er hatte, ob er eine Führungsposition oder -bezihung hatte und viel mehr.
+    - Wenn ich zum Beispiel einen Mitarbeiter aus einer Tabelle löschen will und den Befehl "delete" dafür verwende, dann verschwindet nicht nur der Datensatz des Mitarbeiters, sondern auch alle Beziehungen, welche mit dem Mitarbeiter in Verbindung standen
+        - Wenn das passiert, dann kann man von der Datenbank aus nicht mehr verstehen, welche Position und Beziehungen dieser Mitarbeiter zuvor hatte. Welchen Job er hatte, ob er eine Führungsposition oder -beziehung hatte und viel mehr.
             - Bzw. viele Aktivitäten wären nicht mehr nachvollziehbar -> kann auch zu juristischen Problemen führen
 - Was kann man tun:
-    - Als Lösung kann man z.B. den Datensatz nciht löschen, sondern umgekehrt erweiter und zum Beispiel als inaktiv markieren
+    - Als Lösung kann man z.B. den Datensatz nciht löschen, sondern umgekehrt erweitern und zum Beispiel als inaktiv markieren
         - Kann aber redundant sein
 - Das Problem mit dem Update Befehl:
     - Zeitliche Abläufe kann man auch nicht einfach überschreiben.
