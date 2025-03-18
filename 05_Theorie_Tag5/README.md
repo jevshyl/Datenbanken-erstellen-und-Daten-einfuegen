@@ -53,4 +53,41 @@ Datenintergrität = Korrektheit, Konsistenz und Vertrauenswürdigkeit von Daten 
                - Wird dies nicht gemacht, so kann es zu komplizierten Fehlern kommen, welche nur mit grossem Zeitaufwand korrigiert werden können
           
 
+## Fremdschlüssel-Regeln beim Löschen
 
+Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben und dann einen Datensatz in der Primärtabelle wird. Um die gewolte Aktion in solchen Fällen zu erhalten gibt es einige Befehle/Einstelungen, die ON DELETE-Regeln:
+
+- NO ACTION:
+    - Standartverfahren
+        - Muss nicht angegeben werden
+    - Normalle Delete, heir können also Daten nur dann aus der Primärtabelle gelöscht werden, wenn in keiner Zusatz- oder Detail-Tabelle Daten mit demselben Wert existieren. Also wenn dieser Wer noch irgendwo gebraucht wird, dann wird dieser Befehl nicht ausgeführt
+          - Wenn ich einen Primärschlüssel löschen will, aber dieser in der z.B. Kundentabelle noch gebraucht wird
+
+- CASCADE:
+    - Mit diesem Befehl werden die Daten der Primärtabelle welche gelöscht werden gleichzeitig auch in allem anderen Tabellen gelöscht.
+        - Wenn ich den Primärschlüssel Kunde = 1, und alle seinen Werte löschen will, werden mit dem CASCASE BEfehl alle Datensätze, wo der Primärschlüssel Kunde = 1 als Fremdschlüssel verwendet werden auch gelöscht.
+    - mit diesem Befehl muss man aber darauf achten, dass unabsichtlich falsche Daten gelöscht werden können
+- SET NULL:
+    - Hier werden alle Datensätze , welche in der Primärtabelle gelöscht werden, in den Fremschlüsseltabellen auf NULL gesetzt.
+        - Wenn ch den Primärschlüssel Kunde = 2 und dessen Daten in der Primärtabelle löschen will, dann werden automatisch alle Datensätze in den Fremdschlüsseltabellen, welche diese Daten nutzen auf NULL gesetzt.
+    - Funktioniert nur bei c:m oder c:c Beziehungen -> wenn beim Fremdschlüssel der Wert NULL erlaubt ist
+    - DEFAULT:
+          - falls man einen Default-Wert definiert, so wird dieser in die Fremdschlüsseltabellen eingesetzt statt der Wert NULL
+
+
+- Beispiel:
+
+  ```
+  CREATE TABLE IF NOT EXISTS kunden (
+      ID_Bestellung Integer NOT NULL AUTO_INCREMENT,
+      Beschreibung VARCHAR(100) NOT NULL,
+      Kunden_ID Integer,
+      PRIMARY KEY(ID_Bestellung),
+      CONSTRAINT fk_kunden
+      FOREIGN KEY (Kunden_ID)
+      REFERENCES kunden(ID_Kunden)
+      ON DELETE NO ACTION ON UPDATE CASCADE);
+  ```
+      
+  
+  
