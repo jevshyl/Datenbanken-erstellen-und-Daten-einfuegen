@@ -84,10 +84,30 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
       Kunden_ID Integer,
       PRIMARY KEY(ID_Bestellung),
       CONSTRAINT fk_kunden
-      FOREIGN KEY (Kunden_ID)
-      REFERENCES kunden(ID_Kunden)
-      ON DELETE NO ACTION ON UPDATE CASCADE);
+          FOREIGN KEY (Kunden_ID)
+          REFERENCES kunden(ID_Kunden)
+          ON DELETE NO ACTION ON UPDATE CASCADE
+  );
   ```
       
-  
+
+  ## SELECT ALIAS
+
+  ALIAS = temporäre Name
+
+- Spalten:
+    - In SQL kann man Spalten temporäre Namen geben, welche für die bessere und verständlichere Ansicht nutzbar sind.
+      ```
+      SELECT name FROM Kunden AS "last name";
+      ```
+        - Hier wird die Splate "name" temporär als "lastname" gezeigt
+- Tabellen:
+    - Man kann auch Tabellen einen ALIAS geben, welcher nutzbar wird, wenn man Daten aus verschiedenen Tabellen in einem Befehl aufruft. Um nicht vor jeder Spalte den ganzen Namen der gewünschten Tabelle einzugeben, kan man im Befehl der Tabelle einen neuen temporären Namen geben
+      ```
+      SELECT k.Name, b.Beschreibung
+      FROM kunden k
+      JOIN bestellungen b ON k.ID_Kunde = b.Kunden_ID
+      WHERE k.Name = 'Max Mustermann';
+      ```
+
   
