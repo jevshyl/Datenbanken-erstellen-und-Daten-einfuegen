@@ -61,7 +61,7 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
 - NO ACTION:
     - Standartverfahren
         - Muss nicht angegeben werden
-    - Normalle Delete, heir können also Daten nur dann aus der Primärtabelle gelöscht werden, wenn in keiner Zusatz- oder Detail-Tabelle Daten mit demselben Wert existieren. Also wenn dieser Wer noch irgendwo gebraucht wird, dann wird dieser Befehl nicht ausgeführt
+    - Normalle Delete, hier können also Daten nur dann aus der Primärtabelle gelöscht werden, wenn in keiner Zusatz- oder Detail-Tabelle Daten mit demselben Wert existieren. Also wenn dieser Wer noch irgendwo gebraucht wird, dann wird dieser Befehl nicht ausgeführt
           - Wenn ich einen Primärschlüssel löschen will, aber dieser in der z.B. Kundentabelle noch gebraucht wird
 
 - CASCADE:
