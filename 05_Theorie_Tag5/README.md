@@ -157,19 +157,26 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
 - Zeilen mit demselben Wert (in der Gruppenspalte) werden in einer Gruppe zusammengefasst
 - BSP:
 ```
-		SELECT column1, column2, aggregate_function(column3)
-		FROM table_name
-		GROUP BY column1, column2;
-```
-ODER
-```
 		SELECT product_id, SUM(amount) AS total_sales
 		FROM sales
 		GROUP BY product_id;
 ```
+- Hier bekommt man für jede product_id die Ausgaben von amount zusammengerechnet
+	- Gesamme Verkaufssumme pro product_id wird berechnet
 - Mit group by kann man werte nach einem kriterium gruppieren
-- Wird mit group functions benutzt
 
 
+## HAVING
 
+- HAVING ist der Befehl, um Ergebnisse von GROUP BY zu filtern
+- HAVING-Klausel wird auf die aggregierten Ergebnisse nach der Gruppierung angewendet
+- BSP:
 
+```
+	SELECT MAX(salary), id_department 
+	FROM employee 
+	GROUP BY id_department
+	HAVING MAX(salary) > 12000;
+
+```
+- Hier werden also nur die Resultate der GROUP BY angezeigt, welche den Wert > 12000 haben
