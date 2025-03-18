@@ -91,7 +91,7 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
   ```
       
 
-  ## SELECT ALIAS
+## SELECT ALIAS
 
   ALIAS = temporäre Name
 
@@ -110,4 +110,66 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
       WHERE k.Name = 'Max Mustermann';
       ```
 
+## Aggregatsfunktionen
+
+### Count() 
+- Zählt Anzahl an Einträge
+- Hier kann man auch einfach * statt splate benutzen, wenn in die spalte ganz ausgefüllt ist
+    - Anzahl aller Datensätze
+    - Wenn man spezifische Spalte eingibt, werden nur die Anzahl Werte ohne NULL Werte angezeigt
+- SELECT COUNT(city) FROM location;
+- 
+### Max()
+- Höchste Wert einer Spalte wird angezeigt
+- SELECT MAX(salary) FROM employee;
+- Bei STRING -> es sucht nach dem alpahbetischen Prinzip
+
+### Min()
+- Tiefste/kleinste Wert einer Splate wird angezeigt
+- SELECT MIN(salary) FROM employee;
+- Bei STRING -> es sucht nach dem alpahbetischen Prinzip
   
+### AVG()
+- Berechnet den Durchschnitt einer Spalte
+- SELECT AVG(salary) FROM employee;
+- 
+### SUM()
+- Berechnet die SUMME der Werte in einer Spalte oder Gruppe
+- SELECT SUM(salary) FROM employee;
+
+
+## Merksatz
+
+"Sag Fritz, warum geht Herbert oft laufen?"
+
+- S -> SELECT + column-name
+- F -> FROM + table-name
+- W -> WHERE + condition
+- G -> GROUP BY + column-name
+- H -> HAVING + condition
+- O -> ORDER BY + column-name
+
+
+## GROUP BY
+
+- Wird mir Aggregatsfunktionen verwendet
+- Daten werden in Gruppen zusammengefasst und gruppiert
+- Zeilen mit demselben Wert (in der Gruppenspalte) werden in einer Gruppe zusammengefasst
+- BSP:
+```
+		SELECT column1, column2, aggregate_function(column3)
+		FROM table_name
+		GROUP BY column1, column2;
+```
+ODER
+```
+		SELECT product_id, SUM(amount) AS total_sales
+		FROM sales
+		GROUP BY product_id;
+```
+- Mit group by kann man werte nach einem kriterium gruppieren
+- Wird mit group functions benutzt
+
+
+
+
