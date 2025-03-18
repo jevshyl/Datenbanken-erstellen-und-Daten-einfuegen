@@ -33,8 +33,8 @@ Datenintergrität = Korrektheit, Konsistenz und Vertrauenswürdigkeit von Daten 
 
 1. Eindeutigeit und Datenkonsistenz:
     - Jeder Datensatz muss eindeutig identifizeirbar sein und für eine lange Zeit bestehen
-          - Ihr Zustand soll nicht ungewollt geändert werden können
-          - Redundazen sollen somit verhindert werden
+   	- Ihr Zustand soll nicht ungewollt geändert werden können
+   	- Redundazen sollen somit verhindert werden
 
 2. Referenzielle Integrität:
     - Wenn Tabellen in Beziehung zueindander stehen, sollen diese Beziehungen immer konsistent beliben
