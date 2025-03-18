@@ -132,7 +132,7 @@ Als Beispiel stellt man sich vor, dass man einen Foreign Key-Constraint haben un
 ### AVG()
 - Berechnet den Durchschnitt einer Spalte
 - SELECT AVG(salary) FROM employee;
-- 
+
 ### SUM()
 - Berechnet die SUMME der Werte in einer Spalte oder Gruppe
 - SELECT SUM(salary) FROM employee;
