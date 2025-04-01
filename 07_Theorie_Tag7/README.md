@@ -17,6 +17,7 @@
 
 - Das allgemeine Prinzip besagt, dass man, um einen Datenverlust zu verhinden, Sicherheitskopien der Datenbanken auf externen Speicermedien erstellen soll. Diese Kopien werden als Backups bezeichnet und können einen bestimmten Zustand der Datenbank wiederherstellen
 ### Offline- und Online-Backups
+  
 - Es gibt sogenannte Offline- und Online-Backups
 - Online Backups:
   - Backup wird erstellt, ohne dass man die Datenbank herunterfahren muss
@@ -44,6 +45,7 @@
     - Einmal pro Woche 
 
 - **Differentielles Backup**
+  
   - Hier wird zuerst ein Voll-Backup der Datenbank erstellt.
     - Dann schaut sich die Sicherung an, welche Daten seit dem letzten Backup verändert wurden
       - Nur die Daten, welche sich verändert haben oder neu dazugekommen sind, werden gesichert
@@ -59,6 +61,7 @@
     - wöchentlich mit Vollbackup vergelichen/anpassen/einfügen
 
 - **Inkrementelles Backup**
+  
   - Zusätzlich zu einem Voll-Backup werden beim inkrementellem Backup nur die Daten kopiert, welche sich seit dem letztem Mal verändert haben.
   - Unterschied zu differenteillem Backup:
       - Das inkrementelle Backup bezieht sich immer auf das vorherige Voll-Backup und inkrementelle Backup
