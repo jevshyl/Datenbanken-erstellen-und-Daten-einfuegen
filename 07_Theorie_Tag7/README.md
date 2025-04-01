@@ -31,7 +31,7 @@
 ### Zusätziche Backups
 
 - Neben Online- und Offine-Backups gibt es zusätzliche Möglichkeiten für die Datensicherung
-<br>
+
 - **Vollbackup**
   - Ein Vollbackup = Backup von allen Daten
   - Vorteile:
