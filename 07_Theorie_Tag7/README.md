@@ -44,9 +44,9 @@
     - Einmal pro Woche 
 
 - **Differentielles Backup**
-1. Hier wird zuerst ein Voll-Backup der Datenbank erstellt.
-2. Dann schaut sich die Sicherung an, welche Daten seit dem letzten Backup verändert wurden
-3. Nur die Daten, welche sich verändert haben oder neu dazugekommen sind, werden gesichert
+  - Hier wird zuerst ein Voll-Backup der Datenbank erstellt.
+    - Dann schaut sich die Sicherung an, welche Daten seit dem letzten Backup verändert wurden
+      - Nur die Daten, welche sich verändert haben oder neu dazugekommen sind, werden gesichert
   - Vorteile:
     - Nimmt vielweniger Speicherplatz ein
   - Nachteile:
