@@ -72,4 +72,36 @@
   - wöchentlich mit Voll-Backup anpassen/abgleichen/erstellen
  
 
-## 
+## Backups erstellen
+
+- Es gibt verschiedene Tools welche man benutzen kann um Backups zu erstellen:
+- 
+---
+
+  - MySQLDump
+    - integrierte (Voll-)Backup-Funktion von MySQL
+    - Wie: Auf der Shell Verbindung zu der Datenbank erstellen und Befehl ```mysqldump``` benutzen
+    - Für uns: ``` C:\....\MYSQL\BIN\mysqldump -u root -p --port=3306 tourenplaner > C:\BACKUP\tp_dump.sql ```
+---
+  - phpMyAdmin
+    - Administrations-Plattform für SQL-Datenbanken
+      - Backups im gewünschten Format exportieren
+    - Nur für Backups mit maximaller Grösse von 2MB, da der Prozess sonst vom Server gestoppt wird
+---  
+  - BigDump
+    - Ergänzung zu phpMyAdmin
+    - Erlaubt es grössere Backups zu erstellen
+    - Keine eigene Sicherungs-Funkitons
+---  
+  - HeidiSQL
+    - Gute Lösung für Windows-Systeme
+    - nicht auf phpMyAdmin basierend -> keine Probleme mit grossen Backups
+    - keine Option für Automatisierung
+---  
+  - Mariabackup
+    - Open-Source-Tool von MariaDB
+    - physische Online-Bakcups erstellen
+   
+
+
+  
