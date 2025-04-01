@@ -79,5 +79,9 @@
 ### Was haben wir heute gemacht?
 - Backups/Dumps angeschaut
 - Uns mit normalisierten Imports beschäftigt
+- Backups erstellt 
 
 ### Was habe ich gelernt?
+- Das allgemeine Prinzip der [Datensicherung von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#datensicherung-von-datenbanken)
+- Welche Arten der [Sicherung von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#sicherung-von-datenbanken) der gibt es?
+- Mit welchen Tools kann man [Backups erstellen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#backups-erstellen)
