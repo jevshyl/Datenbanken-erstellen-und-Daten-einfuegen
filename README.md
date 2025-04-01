@@ -63,3 +63,21 @@
 - Was ist der [Merksatz](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#Merksatz) für GROUP BY und HAVING Statements
 - [GROUP BY](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#GROUP-BY)
 - [HAVING](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/05_Theorie_Tag5/README.md#HAVING)
+
+## 25.03.2025
+
+### Was haben wir heute gemacht?
+- Theorie zu Subqueries und Bulkimports studiert
+
+### Was habe ich gelernt?
+- [Subqueries](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/06_Theorie_Tag6#subquery)
+- [Bulkimports](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/06_Theorie_Tag6#bulkimport) vom Server oder vom Client
+
+
+## 01.04.2025
+
+### Was haben wir heute gemacht?
+- Backups/Dumps angeschaut
+- Uns mit normalisierten Imports beschäftigt
+
+### Was habe ich gelernt?
