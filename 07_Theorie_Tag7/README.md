@@ -97,7 +97,8 @@
     - Gute Lösung für Windows-Systeme
     - nicht auf phpMyAdmin basierend -> keine Probleme mit grossen Backups
     - keine Option für Automatisierung
----  
+<br>
+<br>
   - Mariabackup
     - Open-Source-Tool von MariaDB
     - physische Online-Bakcups erstellen
