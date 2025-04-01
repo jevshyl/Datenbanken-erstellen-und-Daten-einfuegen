@@ -79,7 +79,8 @@
   - MySQLDump
     - integrierte (Voll-)Backup-Funktion von MySQL
     - Wie: Auf der Shell Verbindung zu der Datenbank erstellen und Befehl ```mysqldump``` benutzen
-    - Für uns: ``` C:\....\MYSQL\BIN\mysqldump -u root -p --port=3306 tourenplaner > C:\BACKUP\tp_dump.sql ```  
+    - Für uns:
+    - ``` C:\....\MYSQL\BIN\mysqldump -u root -p --port=3306 tourenplaner > C:\BACKUP\tp_dump.sql ```  
 
   - phpMyAdmin
     - Administrations-Plattform für SQL-Datenbanken
