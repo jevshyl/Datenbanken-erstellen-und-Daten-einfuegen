@@ -11,7 +11,7 @@
 - Somit kann man sagen, dass ein Datenverlust stattfindet
   - Ursachen dafür sind technische Versage der Hardware oder auch einfach Benutzerfehler
     - Kann auch ein Angriff von aussen sein
-- Lösung, damit Datenverlust nicht nicht rückkehrbar ist: **Datensicherung**
+- Lösung, damit Datenverlust nicht nicht rückkehrbar ist: ***Datensicherung***
 
 ## Sicherung von Datenbanken 
 
