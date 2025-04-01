@@ -72,3 +72,12 @@
 ### Was habe ich gelernt?
 - [Subqueries](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/06_Theorie_Tag6#subquery)
 - [Bulkimports](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/tree/main/06_Theorie_Tag6#bulkimport) vom Server oder vom Client
+
+
+## 01.04.2025
+
+### Was haben wir heute gemacht?
+- Backups/Dumps angeschaut
+- Uns mit normalisierten Imports beschäftigt
+
+### Was habe ich gelernt?
