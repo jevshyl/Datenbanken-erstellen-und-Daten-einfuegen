@@ -2,7 +2,7 @@
 
 ## Datensicherung von Datenbanken
 
-- Als Beispiel kann man sich vorstellen, dass man eine Website hostet, welche auf eine Datenbank zugreifen kann. Diese Website kann mmit der Datenbank interagieren wobei ein gegenseitiger Datenaustausch stattfindet.
+- Als Beispiel kann man sich vorstellen, dass man eine Website hostet, welche auf eine Datenbank zugreifen kann. Diese Website kann mmit der Datenbank interagieren wobei ein gegenseitiger Datenaustausch stattfindet
   - Nutzer können zum Beispiel Daten in der Datenbank speichern
   - Nutzer können Daten aus einer Datenbank auslesen
     
