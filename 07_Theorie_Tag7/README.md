@@ -5,12 +5,16 @@
 - Als Beispiel kann man sich vorstellen, dass man eine Website hostet, welche auf eine Datenbank zugreifen kann. Diese Website kann mmit der Datenbank interagieren wobei ein gegenseitiger Datenaustausch stattfindet.
   - Nutzer können zum Beispiel Daten in der Datenbank speichern
   - Nutzer können Daten aus einer Datenbank auslesen
+    
 - Dadurch, dass man als Nutzer eigene daten in die Datenbank eintragen kann, passiert es oft, dass diese Datenbanken sensible Kundendaten, persöhnliche Informationen oder sogar Personal- und Finanzinformationen enthalten
+  
 - Wenn die Website jetzt aber Ausfällt, falsche Daten werden angezeigt oder die Website ladet gar nicht mehr.  - Dies kann für Vertrauernsverlust beim Kunden sorgen
  - Für die verantwortliche Person führt das zu mehr Arbeit, diese Fehler zu beheben
+  
 - Somit kann man sagen, dass ein Datenverlust stattfindet
   - Ursachen dafür sind technische Versage der Hardware oder auch einfach Benutzerfehler
     - Kann auch ein Angriff von aussen sein
+      
 - Lösung, damit Datenverlust nicht nicht rückkehrbar ist: ***Datensicherung***
 
 ## Sicherung von Datenbanken 
