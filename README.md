@@ -85,3 +85,12 @@
 - Das allgemeine Prinzip der [Datensicherung von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#datensicherung-von-datenbanken)
 - Welche Arten der [Sicherung von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#sicherung-von-datenbanken) der gibt es?
 - Mit welchen Tools kann man [Backups erstellen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#backups-erstellen)
+
+
+## 08.04.2025
+
+### Was haben wir heute gemacht?
+- 
+
+### Was habe ch gelernt?
+
