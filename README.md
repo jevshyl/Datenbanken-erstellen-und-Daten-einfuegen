@@ -102,9 +102,21 @@
 ## 15.04.2025
 
 ### Was haben wir heute gemacht?
+- Daten-Generator ausprobiert und für LB2 vorbereitet
 - LB2 geschrieben
-- Neue Them angeschaut
+- Neues Thema studiert
 
-### Was habe ch gelernt?
-- 
+### Was habe ich gelernt?
+- Wie man Daten generieren lässt
+- Vorarbeit für nächsten Modul-Tag geleistet
 
+
+## 06.05.2025
+
+### Was haben wir heute gemacht?
+- Stored Sprocedurese und Common table expressions studiert
+- LB2 zurückbekommen und angeschaut
+
+### Was habe ich gelernt?
+- Wofür man [stored procedures]() braucht und was sie sind
+- Was [common tables]() sind und wie mn sie nutzt
