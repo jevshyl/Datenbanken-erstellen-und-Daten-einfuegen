@@ -90,7 +90,21 @@
 ## 08.04.2025
 
 ### Was haben wir heute gemacht?
-- 
+- Praxisarbeit erstellt
+  - Daten normalisiert, Datenbank erstellt und Daten eingefügt. Dafür auch Beziehungen bestummen und eingefügt.
+- Für die Prüfung gelernt
 
 ### Was habe ch gelernt?
+- Repetiert, wie man Datenbanken erstellt und mit Daten arbeitet
+- Theorie repetiert und Zusammenfassung erstellt
+
+
+## 15.04.2025
+
+### Was haben wir heute gemacht?
+- LB2 geschrieben
+- Neue Them angeschaut
+
+### Was habe ch gelernt?
+- 
 
