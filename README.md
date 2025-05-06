@@ -79,5 +79,44 @@
 ### Was haben wir heute gemacht?
 - Backups/Dumps angeschaut
 - Uns mit normalisierten Imports beschäftigt
+- Backups erstellt 
 
 ### Was habe ich gelernt?
+- Das allgemeine Prinzip der [Datensicherung von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#datensicherung-von-datenbanken)
+- Welche Arten der [Sicherung von Daten](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#sicherung-von-datenbanken) der gibt es?
+- Mit welchen Tools kann man [Backups erstellen](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/07_Theorie_Tag7/README.md#backups-erstellen)
+
+
+## 08.04.2025
+
+### Was haben wir heute gemacht?
+- Praxisarbeit erstellt
+  - Daten normalisiert, Datenbank erstellt und Daten eingefügt. Dafür auch Beziehungen bestummen und eingefügt.
+- Für die Prüfung gelernt
+
+### Was habe ch gelernt?
+- Repetiert, wie man Datenbanken erstellt und mit Daten arbeitet
+- Theorie repetiert und Zusammenfassung erstellt
+
+
+## 15.04.2025
+
+### Was haben wir heute gemacht?
+- Daten-Generator ausprobiert und für LB2 vorbereitet
+- LB2 geschrieben
+- Neues Thema studiert
+
+### Was habe ich gelernt?
+- Wie man Daten generieren lässt
+- Vorarbeit für nächsten Modul-Tag geleistet
+
+
+## 06.05.2025
+
+### Was haben wir heute gemacht?
+- Stored Sprocedurese und Common table expressions studiert
+- LB2 zurückbekommen und angeschaut
+
+### Was habe ich gelernt?
+- Wofür man [stored procedures]() braucht und was sie sind
+- Was [common tables]() sind und wie mn sie nutzt
