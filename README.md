@@ -118,5 +118,5 @@
 - LB2 zurückbekommen und angeschaut
 
 ### Was habe ich gelernt?
-- Wofür man [stored procedures]() braucht und was sie sind
-- Was [common tables]() sind und wie mn sie nutzt
+- Was [common tables](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/10_Theorie_Tag10/README.md#common-table-expressions-ctes) sind und wie mn sie nutzt
+- Wofür man [stored procedures](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/10_Theorie_Tag10/README.md#stored-procedures) braucht und was sie sind
