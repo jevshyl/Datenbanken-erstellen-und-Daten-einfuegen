@@ -116,6 +116,8 @@
 ### Was haben wir heute gemacht?
 - Stored Sprocedurese und Common table expressions studiert
 - LB2 zurückbekommen und angeschaut
+- Aufgabe zu Stored Procedures und Common Tables erstellt und geübt
+- Zum Schluss noch mein GitHub verbessert und für die Abgabe abgeschlossen
 
 ### Was habe ich gelernt?
 - Was [common tables](https://github.com/jevshyl/Datenbanken-erstellen-und-Daten-einfuegen/blob/main/10_Theorie_Tag10/README.md#common-table-expressions-ctes) sind und wie mn sie nutzt
